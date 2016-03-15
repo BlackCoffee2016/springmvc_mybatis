@@ -8,8 +8,8 @@ import org.springframework.web.servlet.ModelAndView;
 public class LoginController {
 	
 	@RequestMapping("/login")
-	public ModelAndView login() throws Exception {
-		throw null;
+	public String login() throws Exception {
+		throw "login";
 	}
 
 }
